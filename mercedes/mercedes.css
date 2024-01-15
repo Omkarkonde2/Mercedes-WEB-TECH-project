@@ -1,0 +1,429 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+header{
+background-color:#000000;
+display: inline-block;
+width: 100%;
+}
+#hl img{
+    width: 3rem;
+    margin-right: 1rem;
+ }
+ #h{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+ }
+#hl{
+   padding-top: 1rem;
+    margin-left: 6rem;
+   padding-bottom: 2rem;
+   align-items: center;
+}
+#hr{
+     display: flex; 
+    align-items: center;
+    margin-right: 6rem;
+    
+}
+#hl img{
+   width: 64px;
+   height: 64px;
+   margin-right: 1rem;
+}
+#hl a{
+    text-decoration: none;
+    color: white;
+}
+#hr a{
+     text-decoration: none;
+     color:#aeaba4;
+} 
+#hd a{
+    text-decoration: none;
+    color: #aeaba4;
+    font-size: 1.125rem;
+    padding: 16px;
+}
+#hd{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-left: 6rem;
+
+}
+#hr input{
+    border-radius: 2px;
+    height: 48px;
+    background-color:#262626;
+    width: 100%;
+    display: block;
+    margin-left: 2rem;
+    border: 1px solid black; 
+}
+hr{
+    color: #262626;
+}
+#main{
+    padding-top: 2rem;
+    margin: 0;
+    background-image: url(./image/GLE_FL_Banner.avif);
+    height: 40rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+#main h1{
+ font-size: 3.6rem;
+ padding-top: 12rem;
+ margin-left: 7rem;
+}
+#main p{
+    margin-left: 7rem;
+    font-size: 1.5rem;
+    padding-bottom: 4rem;
+
+}
+#main button{
+    margin-left: 7rem;
+    background-color: #0078d6;
+    border: 1px solid #0078d6;
+    color: aliceblue;
+    padding: 12px 59px;
+}
+
+#t h1{
+    font-size: 3rem;
+    padding-top: 5rem;
+}
+#card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 70%;
+    padding-top: 3rem;
+}
+#l{
+    text-align: center;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+#r{
+    text-align: center;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    padding-bottom: 3rem;
+}
+#card div{
+    background-color: #afa4a4;
+    color: black;
+    width: 48%;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+#card div img{
+    width: 100%;
+    border-radius:10px;
+}
+#card button{
+    background-color: #0078d6;
+    color: white;
+    padding: 11px 19px;
+    border: 1px solid #0078d6;
+    border-radius: 2px;
+    margin-bottom: 1rem;
+}
+h1{
+    font-size: 3rem;
+    line-height: 3rem;
+    padding-top: 3rem;
+}
+#pic{
+    display: flex;
+    margin: auto;
+    width: 80%;
+    align-items: center;
+    margin-top: 5rem;
+}
+#pl{
+    width: 50%;
+}
+#pr{
+    width: 50%;
+}
+#pr h4{
+    font-size: 2rem;
+}
+#pr p{
+    font-size: 1.2rem;
+}
+#pic button{
+    background-color: #0078d6;
+    padding: 12px 31px;
+    color: white;
+    border: 1px solid #0078d6;
+    border-radius: 2px;
+}
+#t{
+    padding-top: 5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+#t h3{
+    font-size: 1.5rem;
+}
+#t p{
+    color: #aeaba4 ;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+footer{
+    display: inline-block;
+    align-items: end;
+    width: 100%; 
+    background-color: black; 
+}
+
+#fot{
+    display: flex;
+    padding: 4rem 9rem 4rem;
+}
+#fotl{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#fotr{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+ul{
+      list-style-type: none;
+}
+#fotl a{
+    color: #aeaba4;
+    text-decoration: none;
+
+}
+#fotr a{
+    color: #aeaba4;
+    text-decoration: none;
+    position: relative;
+}
+h5{
+   font-size: 1.2rem;
+   color: white;
+}
+#hd a:hover{
+      color: white;
+      transition: 1s;   
+}
+ #fotl a:hover{
+    color: white;
+    transition: 1s;
+    text-decoration: underline;
+}
+#fotr a:hover{
+    color: white;
+    transition: 0.2s;
+    text-decoration: underline;
+}
+#wd{
+    display: flex;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+}
+#we{
+    display: flex;
+    padding-bottom: 1rem;
+}
+/* #fw{
+    display: flex;
+    padding-bottom: 2rem;
+} */
+#wd a{
+    text-decoration: none;
+    color: white;
+}
+#we a{
+    text-decoration: none;
+    color: white;
+}
+#wq a{
+       color: white;
+       text-decoration: none;
+}
+#q{
+    display: flex;
+
+}
+#fw{
+    margin-right: 5rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    font-size: 2rem;
+    color: white;
+}
+
+#fw i{
+    color: white;
+}
+#w{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#mobileheader{
+    display: none;
+}
+@media (max-width: 600px)
+{ 
+    
+    body{
+        background-size: 200%;
+        background-position-x: center;
+       
+    } 
+   header{
+       display: none;
+    }
+        #mobileheader{
+            
+            background-color: black;
+            display: flex;
+            width: 267%;
+            position: sticky;
+            top: 0;
+            left: 0;
+        }
+        #mobileheader a{
+           text-decoration: none;
+        }
+        #mobileheader a img{
+            margin-top: 1rem;
+          margin-left:50%;
+            width: 10%;
+           
+        }
+        #mobileheader i{
+            color: white;
+           margin-top: 2rem;
+          margin-left: 3rem;
+          font-size: 2rem;
+          margin-bottom: 2rem;
+        }
+        #mobileheader .fa-user{
+           padding-right: 2rem;
+        }
+        #main{
+            
+            background-image: url(./image/GLE_FL_Banner.avif);
+            height: 40rem;
+           width: 267%;
+
+           
+        
+        
+        }
+        .head p{
+            display: block;
+            font-size: 50rem;
+            padding-left: 3rem;
+            width: 100%;
+           
+        }
+         .head #card{
+            display: block;
+            
+             
+            
+        }  
+        .head #card #l{
+            width: 50rem;
+           margin-left: 5.5rem;
+        }
+        .head #card #l p{
+           font-size: 2rem;
+        }
+        .head #card #r{
+            width: 50rem;
+           margin-left: 5.5rem;
+        }
+        #pic{
+            display: block;
+            
+        }
+        #pic  img{
+            width: 72rem;
+            margin-left: -3rem;
+        }
+        #pr{
+            width: 200%;
+        }
+        #pr h4{
+            text-align: center;
+            font-size: 4rem;
+        }
+        #pr p{
+            margin-top: -3rem;
+            font-size: 2.9rem;
+            width: 150%;
+
+        }
+        #pr button{
+            width: 110%;
+            height: 10vh;
+            margin-left: 7rem;
+            font-size: 3rem;
+        }
+        #t{
+            width: 150%;
+            font-size: 3rem;
+        }
+
+         #t p{
+                display: none;
+        } 
+      
+        
+footer{
+    background-color: black;
+    display: inline-block;
+    height: 20vh;
+   
+
+#fot{
+    display: flex;
+    padding: 4rem 9rem 4rem;
+    width: 200%; 
+    background-color: black;
+
+}
+#fotl{
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+}
+#fotr{
+    display: inline-block;
+    justify-content:space-between;
+    align-items: center;
+}
+#w{
+    display: none;
+}
+
+
+    }
+
+
+
+
+
